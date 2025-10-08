@@ -1,94 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width initial-scale=1.0">
-<title>CV</title>
+  <meta charset="UTF-8">
+  <title>CV - Mon Site</title>
 </head>
 <body>
-<header>
-<h1>✎<u>Page d'inscription:</u></h1>
-<img src="cv.jpg" alt="icon de cv" width="290">
-<nav>
-<a href="index.html">Accueil</a>
-<br>
-<a href="cv.html">CV</a>
-<br>
-<a href="contact.html">Contactez-nous</a>
-</nav>
-</header>
-<main>
-<section>
-<h2>▶ <u>Remplis tes informations:</u>☟</h2>
-<form action="#" method="post" enctype="multipart/form-data">
-<fieldset>
-<legend>Informations personnelles</legend>
-<label for="name">Nom:</label>
-<input type="text" id="name" name="nom" placeholder="Ecrire votre nom" required aria-label="votre nom" aria-required="true">
-<br><br>
-<label for="age">Age:</label>
-<input type="number" id="age" name="Age" placeholder="Ton age" required aria-label="votre Age" aria-required="true" min="18" max="40">
-<br><br>
-<label for="date de naissance">Date de naissance:</label>
-<input type="date" id="date de naissance" name="date de naissance" placeholder="date de ton anniversaire"  required aria-label="date de ton anniversaire" aria-required="true">
-<br><br>
-<label for="cin">CIN:</label>
-<input type="text" id="cin" name="cin" placeholder="Numéro CIN" required aria-label="Numéro de la carte d’identité" aria-required="true">
-<br><br>
-<label for="ville">Ville:</label>
-<select id="ville" name="Ville" required>
-<option value="selection">--Sélectionnez votre ville--</option>
-<option value="tanger">Tanger</option>
-<option value="tetouan">Tetouan</option>
-<option value="rabat">Rabat</option>
-<option value="casablanca">Casablanca</option>
-<option value="salé">Salé</option>
-<option value="marrakesh">Marrakesh</option>
-<option value="Agadir">Agadir</option>
-<option value="oujda">Oujda</option>
-<option value="fes">Fés</option>
-<option value="Kenitra">Kenitra</option>
-<option value="autre">Autre ville</option>
-</select>
-<br><br>
-<label for="image">Choisissez une photo:</label>
-<input type="file" id="image" name="Image" required aria-label="choisissez une photo de profil">
-<br><br>
-<label for="tel">Numéro de teléphone:</label>
-<input type="tel" id="tel" name="telepone" placeholder="+212" required aria-label="Numéro de Telephone correct" aria-required="true" pattern="[0-9]{10 chiffres}">
-<br><br>
-<label for="email">E-mail</label>
-<input type="email" id="email" name="email" placeholder="Exemple@gmail.com"required aria-label="Votre email correct " aria-required="true">
-<br>
-<label for="présentation">Présentez-vous:</label>
-<textarea id="Présentation" name="Présentation" rows="8" required aria-label="Décrivez-vous" aria-required="true"></textarea>
-<br><br>
-<button type="submit">Envoyez</button>
-</fieldset>
-</form>
-</section>
-<section>
-<h2>Compétences:</h2>
-<table border="1">
-<tr>
-<th>Langues</th>
-<th>Niveau</th>
-</tr>
-<tr>
-<td>Fr</td>
-<td><input type="text"></td>
-<tr>
-<td>En</td>
-<td><input type="text"></td>
-</tr>
-<tr>
-<td>Autre</td>
-<td><input type="text"></td>
-</tr>
-</table>
-<button type="submit">Envoyez</button>
-</section>
-</main>
- <footer> <p>&copy; 2025</p></footer>
+
+  <header>
+    <h1>Mon profil</h1>
+    <fieldset>
+        <h1>Tasnime Sahli</h1>
+    <img src="img.jpg" alt="photo de profil" width="200">
+    <nav>
+      <a href="index.html">Accueil</a><br><br>
+      <a href="cv.html">CV</a><br><br>
+      <a href="contact.html">Contact</a>
+    </nav>
+    </fieldset>
+  </header>
+
+  <main>
+    <section>
+      <h2>Profil</h2>
+      <p>Je suis une personne motivée, organisée et passionnée par les nouvelles technologies.</p>
+    </section>
+
+    <section>
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formation</h2>
+      <ul>
+        <li>2025 - Étudiante en développement web</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Expériences / Projets</h2>
+      <p>Création de petits sites web statiques et projets personnels de design web.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mon Site</p>
+  </footer>
+
 </body>
 </html>
