@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
   <title>Contact - Mon Site</title>
 </head>
 <body>
@@ -23,6 +24,24 @@
       <p>GitHub : <a href="https://github.com/tasnimesahli" target="_blank">Mon profil GitHub</a></p>
         </fieldset>
     </section>
+    <section>
+  <fieldset>
+    <h2>Formulaire de contact</h2>
+    <form action="mailto:tasnimsahli97@email.com" method="post" enctype="text/plain">
+      <label for="name">Nom :</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" rows="10" required></textarea><br><br>
+
+      <input type="submit" value="Envoyer">
+      <input type="reset" value="Réinitialiser">
+    </form>
+  </fieldset>
+</section>
   </main>
 
   <footer>
